@@ -1,4 +1,4 @@
-package main
+package nthFibNum
 
 var fibNums [10000]int
 
