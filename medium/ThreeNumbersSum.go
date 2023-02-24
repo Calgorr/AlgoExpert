@@ -11,7 +11,7 @@ func ThreeSum(nums []int, target int) [][3]int {
 	var res [][3]int
 	for i := 0; i < len(nums); i++ {
 		memory := make(map[int]int)
-		for j := 0; j < len(nums); j++ {
+		for j := i; j < len(nums); j++ {
 			if i == j {
 				continue
 			}
